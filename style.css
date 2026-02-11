@@ -15,9 +15,9 @@ body{
 
 
 #login-container{
-    height: 90%;
+    height: 95%;
   /*   max-height: 500px; */  /*Try this */
-    width: 90%;
+    width: 95%;
     /* max-width: 370px; */ /*Try this */
     background-color: rgb(198, 229, 248);
     border-radius: 14px;
