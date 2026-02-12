@@ -1,24 +1,29 @@
-*{
-   margin: 0px;
-   padding: 0px;
-}
-
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 100vh;
+   display: flex;
+  justify-content: center;
+   align-items: center;
+     overflow: hidden;
 
-  
+
+
 }
+
+
 
 
 #login-container{
     height: 95%;
-  /*   max-height: 500px; */  /*Try this */
+    max-height: 500px;                 
+    /*Try this */
+
     width: 95%;
-    /* max-width: 370px; */ /*Try this */
+    max-width: 370px;
+     /*Try this */
+
     background-color: rgb(198, 229, 248);
     border-radius: 14px;
     padding: 3%;
