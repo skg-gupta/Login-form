@@ -4,6 +4,8 @@ body{
    box-sizing: border-box;
    overflow: hidden;
    height: 100vh;
+   width: 100vw;
+
    display: flex;
    justify-content: center;
    align-items: center;
@@ -14,11 +16,11 @@ body{
 
 #login-container{
     height: 95%;
-    max-height: 600px;                 
+    max-height: 400px;                 
     /* Try this */
 
     width: 90%;
-    max-width: 370px;
+    max-width: 300px;
      /* Try this */
 
     background-color: rgb(198, 229, 248);
@@ -28,10 +30,10 @@ body{
     font-family: 'Lucida Sans';
     }
    
-    form{
+    /* form{
         height: 100%;
   
-    }
+    } */
 .innerfild {
 
     height: 10%;
@@ -82,9 +84,9 @@ label{
 
 
 button{
-    height: 80%;
+    height: 30%;
     width: 100%;
-    font-size: 5vh;
+    font-size: 3vh;
     border-radius :5px;
     color: rgb(245, 167, 32);
     color: black;
@@ -99,12 +101,17 @@ button{
 
 @media(orientation:landscape){
 #login-container{
-   max-height: 95%;
-    max-width: 95%;
+    height: 110%;
+    max-width: 95vw;
    
     }
     h2{
         font-size: 5vw;
     }
+    body{
+ 
+   overflow: scroll;
+  
+}
 
 }
