@@ -2,14 +2,11 @@ body{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   overflow: hidden;
    height: 100vh;
    display: flex;
-  justify-content: center;
+   justify-content: center;
    align-items: center;
-     overflow: hidden;
-
-
-
 }
 
 
@@ -17,12 +14,12 @@ body{
 
 #login-container{
     height: 95%;
-    max-height: 500px;                 
-    /*Try this */
+    max-height: 600px;                 
+    /* Try this */
 
-    width: 95%;
+    width: 90%;
     max-width: 370px;
-     /*Try this */
+     /* Try this */
 
     background-color: rgb(198, 229, 248);
     border-radius: 14px;
@@ -30,24 +27,29 @@ body{
     box-shadow: 2px 2px 4px rgb(97, 195, 255) ;
     font-family: 'Lucida Sans';
     }
-    .login{
-    text-align: center;
-    font-size: 200%;
-    padding-bottom: 10px;
-    color: rgb(41, 72, 62);
-    margin-bottom: 30px;
-    font-family: monospace;
-
-}
+   
     form{
         height: 100%;
   
     }
 .innerfild {
 
-    height: 20%;
+    height: 10%;
     width: 100%;
-    margin-top:25px;
+    margin-top:8%;
+
+}
+.login{
+        margin:0;
+
+}
+ h2{
+
+    text-align: center;
+    color: rgb(41, 72, 62);
+    font-family: monospace;
+    font-size: 3vh;
+
 
 }
 
@@ -57,11 +59,11 @@ input{
 
     border-radius: 4px;
     width: 100%;
-    height: 35%;
+    height: 70%;
     border: .5px solid rgb(50, 0, 0);
     font-size:20px;
     background-color: rgb(156, 250, 228);
-    padding-left: 10px;
+    padding-left: 0px 10px;
     margin-top: 3px;
 
   
@@ -82,8 +84,8 @@ label{
 button{
     height: 80%;
     width: 100%;
-    font-size: 1.8em;
-    border-radius :5%;
+    font-size: 5vh;
+    border-radius :5px;
     color: rgb(245, 167, 32);
     color: black;
     background-color: rgb(136, 227, 197);
@@ -91,7 +93,18 @@ button{
 }
 .option{
     text-align: center;
-    /* background-color: red; */
     margin-top: 0px;
     width: 100%;
+}
+
+@media(orientation:landscape){
+#login-container{
+   max-height: 95%;
+    max-width: 95%;
+   
+    }
+    h2{
+        font-size: 5vw;
+    }
+
 }
